@@ -1,0 +1,7 @@
+- have to make everything 100 vw
+- favicon and logo
+- get good fonts
+- put on animations for everything
+- could make a better about page
+- get the vantajs background for hero page
+- make services carousel
