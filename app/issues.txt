@@ -5,3 +5,10 @@
 - could make a better about page
 - get the vantajs background for hero page
 - make services carousel
+- make navbar collapsible - hamburger menu
+- have typing in animations for about
+- border for hero page and rest of the website
+- work more on hero page
+- need to make responsive...
+- map an array in why us
+- figure out why us cards configuration

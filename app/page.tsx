@@ -8,7 +8,7 @@ import Works from "./(components)/Works";
 
 export default function Home() {
   return (
-    <div className="w-[100vw]">
+    <div className="w-[100vw] box-border">
       <Navbar />
       <Hero />
       <About />
