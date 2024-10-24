@@ -36,6 +36,8 @@ const config: Config = {
         },
         accol: {
           DEFAULT: "#1987f5",
+          "30": "#1987f530",
+          "50": "#1987f530"
         },
       },
     },

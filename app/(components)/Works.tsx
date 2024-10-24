@@ -1,19 +1,21 @@
 export default function Works() {
   return (
     <div className="w-[100%] min-h-[100vh] flex flex-col p-8">
-      <h1 className="bighdn">Works</h1>
-      <div className="flex flex-row justify-around items-center m-2 h-[90vh]">
-        <div>&lt;</div>
-        <div className="h-[95%] w-[90%] bg-pricol-30 rounded-lg flex flex-row items-center">
-          <p className="m-2 flex-grow">Image</p>
-          <div className="h-[90%] w-[2px] rounded-lg bg-bggcol m-2"></div>
-          <div className="flex-grow flex flex-col justify-start h-[90%] box-border m-2 p-2">
-            <h1 className="hdn">Some heading of Work</h1>
-            <div className="h-[2px] w-[80%] bg-seccol-70 rounded-lg"></div>
-            <p>More text about work</p>
-          </div>
+      <h1 className="bighdn text-center">Works</h1>
+      <div className="flex flex-wrap w-[98%] justify-around">
+        <div className="bg-seccol-30 max-w-[600px] min-h-[450px] m-2 rounded-lg box-border flex flex-col justify-start transition-all duration-300 hover:from-seccol-70 hover:to-bggcol-70 hover:translate-x-[+8px] ">
+          <div className="bg-bgcol w-[100%] rounded-t-md h-[280px] opacity-50"></div>
+          <h2 className="subhdn uppercase font-[500] tracking-[0.05px] ml-5 mt-5 mb-3">
+            Quality Service
+          </h2>
+          <div className="bg-accol w-[200px] h-[2px] rounded-lg opacity-50 ml-4 m-1" />
+          <p className="textt ml-5 mt-3 mb-5">
+            We bring innovation to life through immersive AR/VR experiences that
+            engage users and offer cutting-edge solutions for training,
+            marketing, and entertainment. We focus on developing 3D environments
+            and interactive simulations tailored to diverse industries.
+          </p>
         </div>
-        <div>&gt;</div>
       </div>
     </div>
   );

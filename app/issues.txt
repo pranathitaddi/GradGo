@@ -1,9 +1,7 @@
-- have to make everything 100 vw
-- favicon and logo
+- resolve favicon
 - get good fonts
 - put on animations for everything
 - could make a better about page
-- get the vantajs background for hero page
 - make services carousel
 - make navbar collapsible - hamburger menu
 - have typing in animations for about
@@ -12,3 +10,8 @@
 - need to make responsive...
 - map an array in why us
 - figure out why us cards configuration
+- navbar to become detached on scrolling
+- make the background of the page continuous and add shapes or somee bg in the back like tailwind css documentation
+- work out tracking issue in text
+- have grad go logo in the background of about us
+- work on hover animations

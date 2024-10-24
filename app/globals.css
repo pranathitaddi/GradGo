@@ -4,12 +4,19 @@
 
 @layer components {
   .bighdn {
-    @apply text-[3rem] text-left font-bold m-1 tracking-[1px];
+    @apply text-[3rem] text-left font-[500] leading-[3.6rem] tracking-[-0.025rem] mt-10 mb-5;
   }
-  .title {
-    @apply text-[3rem] text-left font-bold m-1 tracking-[1px];
+  .bighdn2 {
+    @apply text-[3rem] text-left leading-[3.6rem] tracking-[1.5%] mt-10 mb-5 uppercase;
   }
-  .hdn {
-    @apply text-[1.5rem] text-left m-1 tracking-[1px];
+  .subhdn{
+    @apply text-[1.5rem] m-1 font-[500] tracking-[-0.05rem] ;
+  }
+  .textt{
+    @apply text-[1rem] leading-[1.6rem] tracking-[0.025rem];
+  }
+  .rounded-t-md {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
   }
 }
